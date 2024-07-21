@@ -1,0 +1,307 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+header {
+    /* background-color: #4B0082; */
+    color: #fff;
+
+}
+.topbar {
+    display: flex;
+    background-color: #4B0082;
+    justify-content: space-between;
+    height: 4rem;
+    align-items: center;
+    padding:10 20px ;
+}
+log{
+    max-width: 25%;
+    max-height: 15%;
+    
+}
+
+.logo img {
+
+    margin:0 2px 0 6px;
+    padding: 2px;
+    float: left;
+    
+
+    height: 50px;
+
+}
+
+.details{
+    display: flex;
+    font-size:14px;
+    align-items: center;
+   justify-content: center;
+   padding-left: 20px;
+   font-weight: bold;
+   
+   padding-top: 20px;
+   float: right;
+    
+}
+
+
+
+
+
+.contact-info {
+    font-size: 15px;
+    margin-right:2rem;
+    
+
+}
+
+.contact-info a {
+    color:#fff;
+    text-decoration: none;
+}
+.contact-info a:hover{
+    text-decoration: underline;
+}
+
+.navbar{
+    background-color: #eed700;
+    padding:0;
+    display:flex;
+    justify-content:space-around;
+    
+}
+.navbar ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+.navbar li{
+    display:inline;
+    padding: 15px;
+    margin: 0 3rem 0 3rem;
+
+}
+.navbar a{
+text-decoration: none;
+color: #4B0082;
+font-weight: bold;
+padding: 10px 20px;
+
+}
+li a:visited {
+    color: #00698f;
+}
+
+li a:hover {
+    background-color: #6f4b89;
+    color:#ffd700
+}
+
+li a:active{
+    color: #ff69b4;
+}
+
+.imag{
+    background-image: url('myimages/five.jpg');
+    opacity: 0.8;
+    /* background-size: cover; */
+    background-position: center;
+    align-items: center;
+    width: 100%;
+    height:50vh;
+    object-fit: cover;
+    
+    
+}
+
+.container{
+    position: relative;
+    
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: #eed700;
+    font-weight: bold;
+}
+.center:nth-child(even) { animation-name: leoaoFadeInTop; animation-duration: .7s; animation-timing-function: ease-out; }
+@keyframes leoaoFadeInTop {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+}
+.center:nth-child(odd) { animation-name: leoaoFadeInBottom; animation-duration: .7s; animation-timing-function: ease-out;  }
+@keyframes leoaoFadeInBottom {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.instructions{
+    margin: 50px;
+    padding:0;
+ /*    background-color: whitesmoke ; */
+ 
+}
+.head{
+    text-align: center;padding: 12px;color: #eed700;font-size: 35px;
+    animation-name: bounceX;
+animation-duration: 2s; }
+
+            @keyframes bounceX {
+                    0%, 25%, 55%, 85%, 100% {
+                        animation-timing-function: ease-out;
+                        transform: scale3d(1, 1, 1);
+                    }
+                    41%, 44% {
+                        animation-timing-function: ease-in;
+                        transform: scale3d(1.8, 1, 1);
+                    }
+                    70% {
+                        animation-timing-function: ease-in;
+                        transform: scale3d(1.5, 1, 1);
+                    }
+                    90% { transform: scale3d(1.1, 1, 1) }
+                }
+
+
+.steps h2 {
+    text-align: left;
+    padding: 10px;
+    color: #eed700;
+    background-color:#4B0082;
+}
+.steps p{
+    margin-left: 30px;
+    text-align: justify;
+    margin-right: 12px;
+    color:#4B0082;
+}
+
+
+.sign-up{
+    margin-left: 60rem;
+    padding: 10px 12px;
+    font-size: 16px;
+    color: #4B0082;
+    font-weight: bold;
+    background-color: #eed700;
+    border: none;
+    border-radius: 8px;
+   
+    
+}
+
+.sign-up a{
+    text-decoration: none;
+}
+
+.sign-up a:hover{
+    opacity: 0.5;
+}
+.partners{
+    text-align: center;
+}
+.partners h4{
+    font-size: 20px;
+    color: #4B0082;
+}
+
+.footer{
+    background-color: #4B0082;
+    color:#eed700 ;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap:1rem;
+}
+.logo-size{
+    margin-top: -2rem;
+     
+
+}
+
+    
+
+.title{
+    color: whitesmoke;
+}
+
+
+
+
+
+.address{
+   color: #eed700;
+   margin-left: 8rem;
+   margin-bottom: -4rem;
+
+}
+
+.address a{
+    color: #eed700;
+    text-decoration: none;
+}
+ .address a:hover{
+    text-decoration: underline;
+    
+
+}
+
+
+
+.btm-nav{
+    float: left;
+    font-size: 15px;
+    margin-right:2rem;
+    
+}
+
+
+.btm-nav a {
+    color:#eed700 ;
+    text-decoration: none;
+    margin-left: 5rem;
+   
+}
+.btm-nav a:hover{
+    background-color:#eed700 ;
+    color: #4B0082;
+}
+
+
+.copyright{
+    margin-bottom: -15rem;
+    margin-right: 4rem;
+    margin-top: -4rem;
+    text-align: center;
+    color: whitesmoke;
+    
+
+}
