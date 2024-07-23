@@ -148,7 +148,7 @@ li a:active{
     gap: 12px;
     resize: vertical;
     overflow: auto; */
-    background-color: #f9f9f9;
+    background-color: #c5b2b2;
     padding: 20px;
     border-radius: 10px;
     margin:2px 100px 12px 100px;
@@ -157,6 +157,9 @@ li a:active{
     flex-direction: column;
     gap: 10px;
 
+}
+.sub-section:hover{
+    transform: scale(1.05);
 }
 label {
     font-weight: bold;
